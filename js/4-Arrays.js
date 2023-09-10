@@ -159,10 +159,35 @@ console.log([...edades, ...vocales])
 
 console.log(array3.concat(vocales));
 
-//convertir array a string
 //convertir string a array
+console.log(word.split());
+
+console.log(word.split(''));
+
+//otra forma de convertir o parser us string a un array
+
+console.log(Array.from(word))
+
+//convertir array a string
+
+console.log(vocales.join());
+
+console.log(vocales.join(''));
+
+//otra forma de convertir arrays a strings
+let words = ['hola', 'chau']
+
+console.log(String(words));
 
 //indexOf
+//conocer el indice de un elemento del array. Devuelve la posición del 1er elemento que
+//cumple la condición dada o si lo encuentra o no cumple devuelve -1
+
+console.log(vocales.indexOf('a'));
 
 //includes
+//saber si esta incluido como elemento de un array usando includes
+//includes retorna un booleano, true si esta incluido y false si no lo esta
+
+console.log(vocales.includes('e'));
 
